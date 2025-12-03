@@ -1,0 +1,38 @@
+/* --- TAILWIND DIRECTIVES --- */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* --- GLOBAL: SCROLL BEHAVIOR --- */
+html {
+  /* Garante rolagem suave ao clicar em links âncora (#) */
+  scroll-behavior: smooth;
+  
+  /* Compensa a altura da Navbar fixa (80px + folga) para não cobrir títulos */
+  scroll-padding-top: 100px;
+}
+
+/* --- GLOBAL: BODY SETTINGS --- */
+body {
+  min-height: 100vh;
+  /* Cor de fundo base para evitar flashes brancos/pretos no carregamento */
+  background-color: #ffffff;
+  /* Garante que fontes fiquem nítidas */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* --- CUSTOM SCROLLBAR --- */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
