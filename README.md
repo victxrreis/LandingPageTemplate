@@ -14,7 +14,7 @@ Este projeto foi arquitetado como uma solução **"White Label"**. O objetivo é
 * **⚡ Performance Extrema:** Construído com Vite, garantindo carregamento instantâneo.
 * **📱 Totalmente Responsivo:** Layout fluido que funciona em Celulares, Tablets e Desktops.
 * **🎨 Design System Modular:** Componentes (Botões, Cards, Seções) independentes e reutilizáveis.
-* **SPA (Single Page Application):** Navegação fluida sem recarregamento de página.
+* **⚙️ SPA (Single Page Application):** Navegação fluida sem recarregamento de página.
 
 ## 🚀 Tecnologias Utilizadas
 
