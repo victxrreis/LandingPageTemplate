@@ -8,7 +8,7 @@ Um template profissional, responsivo e totalmente customizável para Landing Pag
 
 ## 💡 Sobre o Projeto
 
-Este projeto foi arquitetado como uma solução **"White Label"** (Marca Branca). O objetivo é fornecer uma base sólida e visualmente agradável que pode ser rapidamente adaptada para qualquer identidade visual de cliente.
+Este projeto foi arquitetado como uma solução **"White Label"**. O objetivo é fornecer uma base sólida e visualmente agradável que pode ser rapidamente adaptada para qualquer identidade visual de cliente.
 
 **Destaques:**
 * **⚡ Performance Extrema:** Construído com Vite, garantindo carregamento instantâneo.
