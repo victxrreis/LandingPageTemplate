@@ -42,3 +42,5 @@ Inicie o servidor local para ver o site funcionando e editá-lo em tempo real:
 npm run dev
 
 O site estará disponível em: http://localhost:5173
+
+O site pode ser visualizado em https://landing-page-template-orpin-eight.vercel.app/#pricing
