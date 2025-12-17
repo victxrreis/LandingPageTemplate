@@ -1,46 +1,39 @@
-# 📦 Landing Page Template
+# 📦 Landing Page Template (White Label)
 
-Um template moderno, performático e modular para Landing Pages de serviços e SaaS. Desenvolvido com **React**, **Vite** e **Tailwind CSS**.
+Um template profissional, responsivo e totalmente customizável para Landing Pages.
 
-Este projeto foi arquitetado como uma **SPA (Single Page Application)** com roteamento no lado do cliente, ideal para hospedagem gratuita em plataformas como a Vercel.
+### 🔗 [Clique aqui para ver o Template Online](https://landing-page-template-orpin-eight.vercel.app/)
+
+---
+
+## 💡 Sobre o Projeto
+
+Este projeto foi arquitetado como uma solução **"White Label"** (Marca Branca). O objetivo é fornecer uma base sólida e visualmente agradável que pode ser rapidamente adaptada para qualquer identidade visual de cliente.
+
+**Destaques:**
+* **⚡ Performance Extrema:** Construído com Vite, garantindo carregamento instantâneo.
+* **📱 Totalmente Responsivo:** Layout fluido que funciona em Celulares, Tablets e Desktops.
+* **🎨 Design System Modular:** Componentes (Botões, Cards, Seções) independentes e reutilizáveis.
+* **SPA (Single Page Application):** Navegação fluida sem recarregamento de página.
 
 ## 🚀 Tecnologias Utilizadas
 
-- **[React](https://react.dev/)**: Biblioteca para construção da interface.
-- **[Vite](https://vitejs.dev/)**: Tooling de frontend ultrarrápido.
-- **[Tailwind CSS](https://tailwindcss.com/)**: Framework de estilização utility-first.
-- **[React Router DOM](https://reactrouter.com/)**: Gerenciamento de rotas (Navegação SPA).
-- **[Lucide React](https://lucide.dev/)**: Biblioteca de ícones leve e consistente.
+* **[React](https://react.dev/)**
+* **[Vite](https://vitejs.dev/)**
+* **[Tailwind CSS](https://tailwindcss.com/)**
+* **[Lucide React](https://lucide.dev/)** (Ícones)
+* **[React Router DOM](https://reactrouter.com/)** (Roteamento)
 
 ## 📂 Estrutura do Projeto
 
-A arquitetura foi pensada para facilitar a personalização:
+A organização das pastas foi desenhada para facilitar a manutenção e a personalização:
 
 ```text
 src/
 ├── components/
-│   ├── layout/      # Navbar, Footer e estruturas fixas
-│   ├── sections/    # Blocos da Landing Page (Hero, Pricing, Features...)
-│   ├── ui/          # Elementos base reutilizáveis (Botões, Inputs...)
-│   └── utils/       # Funções auxiliares (ScrollToTop, etc)
-├── pages/           # Páginas de conteúdo (Home, Termos, Docs...)
+│   ├── layout/      # Navbar, Footer e estruturas globais
+│   ├── sections/    # Blocos de conteúdo (Hero, Preços, Recursos...)
+│   ├── ui/          # Elementos base (Botões, Inputs, Badges)
+│   └── utils/       # Utilitários e Helpers
+├── pages/           # Páginas (Home, Termos de Uso, Docs...)
 └── App.jsx          # Configuração de Rotas
-```
-
-## 🛠️ Instalação e Execução
-Siga os passos abaixo para rodar o projeto em sua máquina.
-
-## Pré-requisitos
-Certifique-se de ter o Node.js instalado.
-
-## 1. Instalar Dependências
-Abra o terminal na pasta do projeto e execute:
-npm install
-
-## 2. Rodar em Desenvolvimento
-Inicie o servidor local para ver o site funcionando e editá-lo em tempo real:
-npm run dev
-
-O site estará disponível em: http://localhost:5173
-
-O site pode ser visualizado em https://landing-page-template-orpin-eight.vercel.app/#pricing
